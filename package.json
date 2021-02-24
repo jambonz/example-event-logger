@@ -1,0 +1,22 @@
+{
+  "name": "jambonz-event-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jslint": "eslint app.js"
+  },
+  "author": "Dave Horton",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
+    "pino": "^6.11.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-plugin-promise": "^4.3.1"
+  }
+}
